@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Single screen app for you</string>
+    <string name="Title">My very small, but proud business</string>
+    <string name="workDescription">Will make you happy with your own one screen app!</string>
+    <string name="address">my address: Kukuevo 123, 52</string>
+    <string name="tel">Contact me: +7(903)1234567</string>
+    <string name="bye">Thank you, come again!</string>
+    <string name="name">Happy Android</string>
+</resources>

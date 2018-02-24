@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="androidHeight">220dp</dimen>
+    <dimen name="textPaddingBottom">16dp</dimen>
+    <dimen name="textPaddingLeft">16dp</dimen>
+    <dimen name="imagePaddingBottom">35dp</dimen>
+
+
+</resources>

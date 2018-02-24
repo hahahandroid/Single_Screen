@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/androidHeight"
+        android:layout_marginBottom="@dimen/imagePaddingBottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/textPaddingBottom"
+        android:paddingLeft="@dimen/textPaddingLeft"
+        android:text="@string/name"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/textPaddingBottom"
+        android:paddingLeft="@dimen/textPaddingLeft"
+        android:text="@string/Title"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/textPaddingBottom"
+        android:paddingLeft="@dimen/textPaddingLeft"
+        android:text="@string/workDescription"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/textPaddingBottom"
+        android:paddingLeft="@dimen/textPaddingLeft"
+        android:text="@string/address"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/textPaddingBottom"
+        android:paddingLeft="@dimen/textPaddingLeft"
+        android:text="@string/tel"
+        android:textAllCaps="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="@dimen/textPaddingBottom"
+            android:paddingRight="@dimen/textPaddingLeft"
+            android:text="@string/bye"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
